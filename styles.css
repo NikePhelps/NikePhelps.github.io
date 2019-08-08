@@ -1,0 +1,53 @@
+body {
+    background-color: grey;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.world {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 30px;
+    color: white;
+}
+
+img {
+    display: flex;
+    width: 15%;
+    position: relative;
+    left: 40%;
+    padding: 30px;
+    border-radius: 50%;
+  }
+
+  header {
+    display: flex;
+    background-color: purple;
+    border-radius: 10px;
+    padding: 5px;
+}
+  
+  nav {
+      display: flex;
+      align-items: center;
+  }
+
+  .nav_links {
+    display: flex;
+    width: 650px;
+    justify-content: space-around;
+    position: relative;
+    left: 600px;
+  }
+
+  p {
+      position: relative;
+      width: 60%;
+      left: 23%;
+      bottom: 30px;
+      color: white;
+  }

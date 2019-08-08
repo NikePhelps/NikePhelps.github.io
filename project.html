@@ -1,51 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles1.css">
-</head>
+    <link rel="stylesheet" href="styles1.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <h1><a href="index.html">Andre Johnson II</a></h1>
-        <nav>
-            <li><a href="project.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </nav>
+      <nav>
+        <h1><a href="index.html">Andre' Johnson II</a></h1>
+        <div class="nav_links">
+          <a href="project.html">Projects</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </nav>
     </header>
-    <p>Projects go here</p>
-    <div class="slideshow-container1">
-            <div class="mySlides fade">
-                    <div class="numbertext">1 / 4</div>
-                    <img src="sshomepage.png" style="width:100%">
-                    <div class="text">Homepage</div>
-            </div>
-            <div class="mySlides fade">
-                    <div class="numbertext">2 / 4</div>
-                    <img src="sscharacter.png" style="width:100%">
-                    <div class="text">Character Select</div>
-            </div>
-            <div class="mySlides fade">
-                    <div class="numbertext">3 / 4</div>
-                    <img src="ssbattle.png" style="width:100%">
-                    <div class="text">Battle Page</div>
-            </div>
-            <div class="mySlides fade">
-                    <div class="numbertext">4 / 4</div>
-                    <img src="ssvictory.png" style="width:100%">
-                    <div class="text">Victory Screen</div>
-            </div>
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <div class="super">
+        <h1>Superhero Shodown</h1>
+        <p class="ssdescription">Superhero Shodown is a card-battling app made using Angular 7 and PostgreSQL. Players choose heroes from the
+            Marvel and DC universes to see if they can defeat their opponents. The heroes are separated by attack type which
+            players use to gain a strategic advantage in battle. This project I built with my team won Best Front-End project
+            at Grand Circus' Demo Day on June, 28, 2019.
+        </p>
+        <div class="links">
+            <a class="links1" href="https://superhero-shodown.herokuapp.com/" target="blank">App</a>
+            <a class="links1" href="https://github.com/NikePhelps/Superhero-Shodown" target="blank">Github</a>
+        </div>
     </div>
-
-    <footer>
-            <a href="https://www.linkedin.com/in/andrejohnson633/" target="blank">Linkedin</a>
-            <a href="https://github.com/NikePhelps" target="blank">Github</a>
-            <a href="./Andre' Johnson II Resume.docx" target="blank">Resume</a>
-    </footer>
+    <div class="slideshow-container1">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 4</div>
+        <img src="sshomepage.png" style="width:100%" />
+        <div class="text">Homepage</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 4</div>
+        <img src="sscharacter.png" style="width:100%" />
+        <div class="text">Character Select</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 4</div>
+        <img src="ssbattle.png" style="width:100%" />
+        <div class="text">Battle Page</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 4</div>
+        <img src="ssvictory.png" style="width:100%" />
+        <div class="text">Victory Screen</div>
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <div class="block">
+        <h1>Blockbuster (... because it's come to this)</h1>
+        <p class="bbdescription">Blockbuster (... because it's come to this) is an movie searching app using Angular 7 and theMovieDB API. This
+            was a fun app that I made with my team that imagined where Blockbuster would be now with the rise of streaming
+            services. Movies can be searched by title, genre, year, or rating. Once searched, you can click on the Blockbuster
+            icon to add the movies to the favorites page.
+        </p>
+        <a class="links1" href="https://github.com/NikePhelps/Angular-Project" target="blank">Github</a>
+    </div>
+    <div class="slideshow-container2">
+      <div class="mySlides1 fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="bbhomepage.png" style="width:100%" />
+        <div class="text">Homepage</div>
+      </div>
+      <div class="mySlides1 fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="bbsearch.png" style="width:100%" />
+        <div class="text">Search Page</div>
+      </div>
+      <div class="mySlides1 fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="bbfavs.png" style="width:100%" />
+        <div class="text">Favorites Page</div>
+      </div>
+      <a class="prev" onclick="plusSlides1(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides1(1)">&#10095;</a>
+    </div>
+    <div class="star">
+        <h1>Star Match</h1>
+        <p class="smdescription">Star Match is the first project I built with my team using HTML, CSS, and Vanilla Javascript. A simple memory
+            game where players match up zodiac signs.
+        </p>
+        <a class="links1" href="https://github.com/NikePhelps/Star-Match---Matching-Game">Github</a>
+    </div>
+    <div class="slideshow-container3">
+      <div class="mySlides2 fade">
+        <div class="numbertext">1 / 2</div>
+        <img src="starmatch.png" style="width:100%" />
+        <div class="text">Matching Screen</div>
+      </div>
+      <div class="mySlides2 fade">
+        <div class="numbertext">2 / 2</div>
+        <img src="starmatchvictory.png" style="width:100%" />
+        <div class="text">Victory Screen</div>
+      </div>
+      <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides2(1)">&#10095;</a>
+    </div>
     <script src="projects.js"></script>
-</body>
+  </body>
+</html>
