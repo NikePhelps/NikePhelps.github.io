@@ -1,5 +1,6 @@
 body {
     background-color: grey;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 a {
@@ -13,6 +14,12 @@ a {
     position: relative;
     bottom: 30px;
     color: white;
+}
+
+.name {
+    color: white;
+    padding: 5px;
+    margin-left: 10px;
 }
 
 img {
@@ -39,9 +46,10 @@ img {
   .nav_links {
     display: flex;
     width: 650px;
-    justify-content: space-around;
+    justify-content: space-evenly;
     position: relative;
-    left: 600px;
+    left: 630px;
+    font-size: 24px;
   }
 
   p {
@@ -50,4 +58,8 @@ img {
       left: 23%;
       bottom: 30px;
       color: white;
+  }
+
+  .name:hover, .project:hover, .contact1:hover {
+    background-color:grey;
   }

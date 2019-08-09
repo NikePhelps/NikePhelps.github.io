@@ -7,6 +7,7 @@ header {
 
 body {
     background-color: grey;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 a {
@@ -21,6 +22,12 @@ a {
 
   h1 {
       color: white;
+      padding: 5px;
+      margin-left: 10px;
+  }
+
+  .name:hover, .project:hover, .contact1:hover {
+    background-color:grey;
   }
 
 .ssdescription {
@@ -55,14 +62,20 @@ a {
 
 .links1 {
     margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.links1:hover {
+    background-color: purple;
 }
 
   .nav_links {
     display: flex;
     width: 650px;
-    justify-content: space-around;
+    justify-content: space-evenly;
     position: relative;
-    left: 600px;
+    left: 615px;
+    font-size: 24px;
   }
 
   .super {
@@ -112,9 +125,9 @@ a {
     width: auto;
     margin-top: -22px;
     padding: 16px;
-    color: white;
+    color: purple;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 36px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
@@ -126,7 +139,7 @@ a {
   }
 
   .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
+    background-color: white;
   }
 
   .text {
@@ -140,8 +153,8 @@ a {
   }
 
   .numbertext {
-    color: #f2f2f2;
-    font-size: 16px;
+    color: white;
+    font-size: 36px;
     padding: 8px 12px;
     position: absolute;
     top: 0;

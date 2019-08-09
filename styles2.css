@@ -7,6 +7,7 @@ header {
 
 body {
     background-color: grey;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 a {
@@ -26,29 +27,33 @@ a {
 }
 
 h1 {
+    color: white;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.name:hover, .project:hover, .contact1:hover {
+    background-color:grey;
+  }
+
+.contact {
     display: flex;
     justify-content: center;
+    color: white;
 }
 
   .nav_links {
     display: flex;
     width: 650px;
-    justify-content: space-around;
+    justify-content: space-evenly;
     position: relative;
-    left: 600px;
+    left: 630px;
+    font-size: 24px;
   }
   
   nav {
       display: flex;
       align-items: center;
-  }
-
-  .nav_links {
-    display: flex;
-    width: 650px;
-    justify-content: space-around;
-    position: relative;
-    left: 600px;
   }
 
   footer {
@@ -62,4 +67,5 @@ h1 {
     left: 46%;
     height: 50vh;
     justify-content: space-around;
+    border-radius: 10px;
   }
