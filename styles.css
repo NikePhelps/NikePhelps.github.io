@@ -1,6 +1,7 @@
 body {
     background-color: grey;
     font-family: 'Fira Sans', sans-serif;
+    overflow: hidden;
 }
 
 a {
